@@ -3,9 +3,6 @@
 1.启动
 
 ```
-git clone https://github.com/xhsdnn/vuepress-proj.git
-
-cd vuepress-proj
 
 npm install
 
