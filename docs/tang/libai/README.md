@@ -2,7 +2,6 @@
 
 ##  Wave 曲线
 
-<!-- <profile-panel :info="info"></profile-panel> -->
 最直观的应用是使用三角函数来绘制 Wave 曲线
 ```js
 for (let x = 0; x < width; x++) {

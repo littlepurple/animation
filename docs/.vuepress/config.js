@@ -17,7 +17,7 @@ module.exports = {
     cache: true, // 默认
     // theme:
     themeConfig: {
-        repo: 'https://github.com/xhsdnn',
+        repo: 'https://github.com/littlepurple/animation',
         // sidebarDepth: 1,
         // displayAllHeaders: true,
         // activeHeaderLinks: false,
@@ -39,32 +39,13 @@ module.exports = {
                             children: [
                                 'libai/',
                                 'dufu/',
-                                // 'baijuyi/'
                             ]
                         },
                     ],
-
-                    '/song/': [
-                        ['', '简介'], {
-                            title: '代表人物',
-                            collapsable: false,
-                            children: [
-                                'sushi/',
-                                'liqingzhao/',
-                                'fanzhongyan/'
-                            ]
-                        }
-                    ]
                 }
             },
             '/en/': {
                 nav: [{
-                    text: 'Tang',
-                    link: '/en/tang/'
-                }, {
-                    text: 'Song',
-                    link: '/en/song/'
-                }, {
                     text: 'More',
                     link: '/en/more/'
                 }],
@@ -76,22 +57,9 @@ module.exports = {
                             children: [
                                 'libai/',
                                 'dufu/',
-                                'baijuyi/'
                             ]
                         }
                     ],
-
-                    '/en/song/': [
-                        ['', 'Introduction'], {
-                            title: 'Representative',
-                            collapsable: false,
-                            children: [
-                                'sushi/',
-                                'liqingzhao/',
-                                'fanzhongyan/'
-                            ]
-                        }
-                    ]
                 }
             }
         }
